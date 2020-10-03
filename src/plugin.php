@@ -916,7 +916,7 @@ function _wp_call_all_hook( $args ) {
  * @param callable $function The function to generate ID for.
  * @param int      $priority Unused. The order in which the functions
  *                           associated with a particular action are executed.
- * @return string Unique function ID for usage as array key.
+ * @return string Unique function ID.
  */
 function _wp_filter_build_unique_id( $tag, $function, $priority ) {
 	static $unique_ids = array();
