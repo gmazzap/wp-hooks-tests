@@ -1,0 +1,15 @@
+{
+    "name": "gmazzap/test-wp",
+    "require": {
+        "phpunit/phpunit": "^9.4"
+    },
+    "authors": [
+        {
+            "name": "Giuseppe Mazzapica",
+            "email": "giuseppe.mazzapica@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "ext-json": "*"
+    }
+}
